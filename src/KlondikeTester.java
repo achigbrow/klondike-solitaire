@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /** Class to test our card, deck, and games classes. */
 public class KlondikeTester {
 
@@ -14,7 +16,7 @@ public class KlondikeTester {
             correctTests++;
         } else {
             // Uncomment for a trace of which test failed.
-            //new Exception("Failed Test").printStackTrace();
+            new Exception("Failed Test").printStackTrace();
         }
         totalTests++;
     }
@@ -495,5 +497,6 @@ public class KlondikeTester {
 
         System.out.println("---------- testing complete ----------");
         System.out.println("Overall: Passed " + correct  + " out of " + total + " tests");
+
     }
 }
